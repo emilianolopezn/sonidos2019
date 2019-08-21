@@ -14,6 +14,7 @@
 		3D31C34D230DEA2400985F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31C34B230DEA2400985F22 /* LaunchScreen.storyboard */; };
 		3D31C358230DEA2400985F22 /* sonidosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31C357230DEA2400985F22 /* sonidosTests.swift */; };
 		3D31C363230DEA2400985F22 /* sonidosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31C362230DEA2400985F22 /* sonidosUITests.swift */; };
+		3D31C371230DEC6D00985F22 /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D31C370230DEC6C00985F22 /* sonido.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D31C35E230DEA2400985F22 /* sonidosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonidosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D31C362230DEA2400985F22 /* sonidosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonidosUITests.swift; sourceTree = "<group>"; };
 		3D31C364230DEA2400985F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D31C370230DEC6C00985F22 /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonido.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3D31C341230DEA2200985F22 /* sonidos */ = {
 			isa = PBXGroup;
 			children = (
+				3D31C370230DEC6C00985F22 /* sonido.mp3 */,
 				3D31C342230DEA2200985F22 /* AppDelegate.swift */,
 				3D31C344230DEA2200985F22 /* ViewController.swift */,
 				3D31C346230DEA2200985F22 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D31C371230DEC6D00985F22 /* sonido.mp3 in Resources */,
 				3D31C34D230DEA2400985F22 /* LaunchScreen.storyboard in Resources */,
 				3D31C34A230DEA2400985F22 /* Assets.xcassets in Resources */,
 				3D31C348230DEA2200985F22 /* Main.storyboard in Resources */,
